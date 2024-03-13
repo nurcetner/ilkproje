@@ -9,7 +9,7 @@ export function SignUp(){
     const [email, setEmail] = useState()
     const [password, setPassword] = useState()
     const [passwordRepeat , setPasswordRepeat] = useState()
-
+    console.log("deneme");
     const onSubmit = (event)=> {
     event.preventDefault();
     axios.post('api/v1/users', {
